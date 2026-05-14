@@ -37,10 +37,10 @@ Based on the design by <a href="https://github.com/BartoszJarocki/cv">Bartosz Ja
 <div align="center">
 
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/Ivan-Bolanos/minimalist-portfolio-json)
-![GitHub issues](https://img.shields.io/github/issues/Ivan-Bolanos/minimalist-portfolio-json)
-![GitHub forks](https://img.shields.io/github/forks/Ivan-Bolanos/minimalist-portfolio-json)
-![GitHub PRs](https://img.shields.io/github/issues-pr/Ivan-Bolanos/minimalist-portfolio-json)
+![GitHub stars](https://img.shields.io/github/stars/Ivan-Bolanos/astro-minimalist-cv-json)
+![GitHub issues](https://img.shields.io/github/issues/Ivan-Bolanos/astro-minimalist-cv-json)
+![GitHub forks](https://img.shields.io/github/forks/Ivan-Bolanos/astro-minimalist-cv-json)
+![GitHub PRs](https://img.shields.io/github/issues-pr/Ivan-Bolanos/astro-minimalist-cv-json)
 
 </div>
 
@@ -58,8 +58,8 @@ Based on the design by <a href="https://github.com/BartoszJarocki/cv">Bartosz Ja
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Ivan-Bolanos/minimalist-portfolio-json.git
-cd minimalist-portfolio-json
+git clone https://github.com/Ivan-Bolanos/astro-minimalist-cv-json.git
+cd astro-minimalist-cv-json
 ```
 
 - This project uses [pnpm](https://pnpm.io/installation) as package manager.
