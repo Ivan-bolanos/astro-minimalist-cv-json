@@ -1,0 +1,287 @@
+{
+  "basics": {
+    "name": "Iván Bolaños Rodríguez",
+    "label": "Senior Full Stack Developer with 6+ years of experience in React, TypeScript, and AWS",
+    "image": "/me.webp",
+    "email": "ivanbolanos0@gmail.com",
+    "phone": "+34656192064",
+    "url": "https://github.com/Ivan-Bolanos",
+    "summary": "Senior Full Stack Developer with 6+ years of experience designing and delivering scalable web and mobile applications. Specialized in React (Native & Web), TypeScript, and AWS cloud services (Lambda, API Gateway, DynamoDB, Cognito). Skilled in microservices, serverless architectures, and infrastructure as code (Terraform), with strong expertise in CI/CD automation, DevOps practices, and Agile/Scrum methodologies. Passionate about solving complex challenges through clean, efficient, and cloud-native solutions.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Madrid",
+      "countryCode": "ES",
+      "region": "Spain"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ivan-bolaños",
+        "url": "https://linkedin.com/in/ivan-bolaños"
+      },
+      {
+        "network": "GitHub",
+        "username": "Ivan Bolaños",
+        "url": "https://github.com/Ivan-bolanos"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Dormakaba",
+      "position": "Senior Full Stack Engineer",
+      "url": "https://www.dormakaba.com",
+      "startDate": "2025-01-01",
+      "endDate": null,
+      "summary": "Developed modern frontend with React (Vite), TypeScript, and Redux Toolkit. Engineered serverless backends on AWS using Lambda, API Gateway, DynamoDB, and S3. Implemented secure authentication with Cognito, IAM, and Verified Permissions. Automated infrastructure with Terraform and enhanced CI/CD pipelines in Jenkins with SonarQube quality gates.",
+      "highlights": [
+        "AWS serverless architecture",
+        "React with Vite and TypeScript",
+        "Terraform infrastructure automation",
+        "SAFe Agile environment"
+      ]
+    },
+    {
+      "name": "Dormakaba",
+      "position": "React Native Engineer",
+      "url": "https://www.dormakaba.com",
+      "startDate": "2022-08-01",
+      "endDate": "2025-01-01",
+      "summary": "Developed Android/iOS applications with React Native and TypeScript. Implemented state management with Redux and React Hooks, reducing complexity and optimizing runtime performance. Designed and executed unit tests, ensuring application stability and high-quality releases.",
+      "highlights": [
+        "React Native mobile development",
+        "Redux state management",
+        "Unit testing implementation",
+        "Cross-functional collaboration"
+      ]
+    },
+    {
+      "name": "Varadero Software Factory",
+      "position": "Full Stack Engineer",
+      "url": "https://varaderosoftware.com",
+      "startDate": "2019-03-01",
+      "endDate": "2022-08-01",
+      "summary": "Redesigned and optimized front-end architecture with React, improving code efficiency by 35%. Led analysis and development of 5+ Android/iOS applications with React Native, reducing development time by 40% and increasing user engagement by 60%. Developed robust backend system using .NET, boosting application performance by 40%.",
+      "highlights": [
+        "35% code efficiency improvement",
+        "Led 5+ mobile app projects",
+        "50% reduction in load times",
+        ".NET backend development"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [
+    {
+      "institution": "IMF Business School",
+      "url": "https://www.imf-formacion.com",
+      "area": "Cybersecurity",
+      "studyType": "Master of Education",
+      "startDate": "2020-01-01",
+      "endDate": "2021-06-01",
+      "score": "4.0",
+      "courses": [
+        "Information Security",
+        "Network Security",
+        "Ethical Hacking"
+      ]
+    },
+    {
+      "institution": "IMF Business School",
+      "url": "https://www.imf-formacion.com",
+      "area": "Web Application Development",
+      "studyType": "Higher Technician",
+      "startDate": "2019-01-01",
+      "endDate": "2020-06-01",
+      "score": "4.0",
+      "courses": [
+        "Web Development",
+        "Full Stack Development"
+      ]
+    },
+    {
+      "institution": "IMF Business School",
+      "url": "https://www.imf-formacion.com",
+      "area": "Cross-Platform Application Development",
+      "studyType": "Higher Technician",
+      "startDate": "2018-01-01",
+      "endDate": "2019-06-01",
+      "score": "4.0",
+      "courses": [
+        "Mobile Development",
+        "Cross-Platform Applications"
+      ]
+    }
+  ],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "React",
+      "level": "Expert",
+      "keywords": [
+        "Web Development", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "React Native",
+      "level": "Expert",
+      "keywords": [
+        "Mobile Development", "Cross-Platform", "iOS", "Android"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Expert",
+      "keywords": [
+        "Web Development", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Expert",
+      "keywords": [
+        "Cloud Services", "Lambda", "API Gateway", "DynamoDB", "S3", "Cognito", "IAM"
+      ]
+    },
+    {
+      "name": "Redux",
+      "level": "Expert",
+      "keywords": [
+        "State Management", "Redux Toolkit", "React", "Frontend"
+      ]
+    },
+    {
+      "name": "Terraform",
+      "level": "Advanced",
+      "keywords": [
+        "Infrastructure as Code", "IaC", "DevOps", "Cloud Automation"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Backend", "JavaScript", "Server"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Frontend", "React Framework", "SSR"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Advanced",
+      "keywords": [
+        "Backend", "C#", "Web Development", "Server"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control", "Collaboration", "Source Code"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Advanced",
+      "keywords": [
+        "Jenkins", "DevOps", "Automation", "SonarQube"
+      ]
+    },
+    {
+      "name": "Microservices",
+      "level": "Advanced",
+      "keywords": [
+        "Architecture", "Serverless", "Distributed Systems", "Cloud"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "AWS Serverless Architecture",
+      "isActive": true,
+      "description": "Engineered serverless backends using AWS Lambda, API Gateway, DynamoDB, and S3",
+      "highlights": [
+        "AWS Lambda & API Gateway",
+        "DynamoDB & S3",
+        "Cognito Authentication",
+        "Terraform IaC"
+      ],
+      "url": "https://www.dormakaba.com",
+      "github": "https://github.com/Ivan-Bolanos"
+    },
+    {
+      "name": "React Native Mobile Apps",
+      "isActive": true,
+      "description": "Led development of 5+ Android/iOS applications with React Native, reducing development time by 40%",
+      "highlights": [
+        "React Native",
+        "Redux State Management",
+        "60% user engagement increase",
+        "Cross-platform"
+      ],
+      "url": "https://github.com/Ivan-Bolanos",
+      "github": "https://github.com/Ivan-Bolanos"
+    },
+    {
+      "name": "Frontend Architecture Optimization",
+      "isActive": true,
+      "description": "Redesigned React frontend architecture improving code efficiency by 35%",
+      "highlights": [
+        "React & Vite",
+        "TypeScript",
+        "Redux Toolkit",
+        "35% efficiency gain"
+      ],
+      "url": "https://github.com/Ivan-Bolanos",
+      "github": "https://github.com/Ivan-Bolanos"
+    }
+  ]
+}
