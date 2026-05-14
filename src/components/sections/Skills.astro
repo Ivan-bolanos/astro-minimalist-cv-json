@@ -5,6 +5,7 @@ import CSS from "@/icons/css.astro"
 import JavaScript from "@/icons/javascript.astro"
 import TypeScript from "@/icons/type.astro"
 import React from "@/icons/react.astro"
+import ReactNative from "@/icons/reactnative.astro"
 import Node from "@/icons/node.astro"
 import MySQL from "@/icons/sql.astro"
 import Git from "@/icons/git.astro"
@@ -16,6 +17,12 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import AWS from "@/icons/aws.astro"
+import Redux from "@/icons/redux.astro"
+import Terraform from "@/icons/terraform.astro"
+import DotNet from "@/icons/dotnet.astro"
+import CICD from "@/icons/cicd.astro"
+import Microservices from "@/icons/microservices.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -23,16 +30,25 @@ const SKILLS_ICONS: Record<string, any> = {
   JavaScript,
   TypeScript,
   React,
+  "React Native": ReactNative,
   Node,
+  "Node.js": Node,
   MySQL,
   Git,
   GitHub,
   Next,
+  "Next.js": Next,
   Tailwind,
   Swift,
   SwiftUI,
   Kotlin,
   Flutter,
+  AWS,
+  Redux,
+  Terraform,
+  ".NET": DotNet,
+  "CI/CD": CICD,
+  Microservices,
 }
 ---
 
@@ -40,8 +56,7 @@ const SKILLS_ICONS: Record<string, any> = {
   <ul>
     {
       skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
-        const Icon = SKILLS_ICONS[iconName]
+        const Icon = SKILLS_ICONS[name]
 
         return (
           <li>
