@@ -7,7 +7,7 @@ import { education } from "@cv"
 <Section title="Education">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area }) => {
+      education.map(({ institution, startDate, endDate, area, studyType, description }, index) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Current"
@@ -19,14 +19,28 @@ import { education } from "@cv"
               <header>
                 <div>
                   <h3>{institution}</h3>
+                  <h4>{studyType} in {area}</h4>
                 </div>
 
                 <time>{years}</time>
               </header>
 
-              <footer>
-                <p>{area}</p>
-              </footer>
+              {description && description.length > 0 && (
+                <footer class="education-footer" data-index={index}>
+                  <ul class="description-list">
+                    {description.map((item, itemIndex) => (
+                      <li class={itemIndex >= 3 ? "hidden-item" : ""}>
+                        {item}
+                        {itemIndex === 2 && description.length > 3 && (
+                          <button class="show-more-btn" data-expanded="false">
+                            ...more
+                          </button>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </footer>
+              )}
             </article>
           </li>
         )
@@ -34,6 +48,28 @@ import { education } from "@cv"
     }
   </ul>
 </Section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.show-more-btn');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        const btn = e.target as HTMLButtonElement;
+        const footer = btn.closest('.education-footer');
+        const hiddenItems = footer?.querySelectorAll('.hidden-item');
+
+        if (hiddenItems) {
+          hiddenItems.forEach(item => {
+            (item as HTMLElement).classList.add('show');
+          });
+        }
+
+        btn.style.display = 'none';
+      });
+    });
+  });
+</script>
 
 <style>
   ul {
@@ -47,17 +83,78 @@ import { education } from "@cv"
     color: #111;
   }
 
+  article h4 {
+    font-weight: 400;
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 4px;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
   }
 
   time {
     color: #555;
     font-size: 0.85rem;
     min-width: 102px;
+  }
+
+  footer {
+    margin-top: 8px;
+  }
+
+  .description-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .description-list li {
+    color: #666;
+    font-size: 0.8rem;
+    padding-left: 14px;
+    position: relative;
+    line-height: 1.4;
+  }
+
+  .description-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 0.7rem;
+  }
+
+  .hidden-item {
+    display: none;
+  }
+
+  .hidden-item.show {
+    display: list-item;
+  }
+
+  .show-more-btn {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 4px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    display: inline;
+  }
+
+  .show-more-btn:hover {
+    color: #333;
+    text-decoration: underline;
   }
 
   @media (width <= 700px) {

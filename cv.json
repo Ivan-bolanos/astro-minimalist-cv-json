@@ -84,43 +84,54 @@
   }],
   "education": [
     {
-      "institution": "IMF Business School",
+      "institution": "IMF Smart Education",
       "url": "https://www.imf-formacion.com",
       "area": "Cybersecurity",
-      "studyType": "Master of Education",
+      "studyType": "Master's degree",
       "startDate": "2020-01-01",
-      "endDate": "2021-06-01",
-      "score": "4.0",
-      "courses": [
-        "Information Security",
-        "Network Security",
-        "Ethical Hacking"
+      "endDate": "2021-12-31",
+      "description": [
+        "Security Information and Event Management",
+        "Cyber Intelligence",
+        "Ethical Hacking",
+        "DevOps",
+        "Digital Forensic",
+        "Incident Response",
+        "Reversing"
       ]
     },
     {
-      "institution": "IMF Business School",
+      "institution": "IMF Smart Education",
       "url": "https://www.imf-formacion.com",
       "area": "Web Application Development",
       "studyType": "Higher Technician",
-      "startDate": "2019-01-01",
+      "startDate": "2019-06-01",
       "endDate": "2020-06-01",
-      "score": "4.0",
-      "courses": [
-        "Web Development",
-        "Full Stack Development"
+      "description": [
+        "Design and development of responsive web applications using HTML, CSS, and JavaScript",
+        "Frontend development with modern frameworks and component-based architectures",
+        "Backend development with REST APIs and server-side technologies",
+        "Database modeling and management with SQL and NoSQL systems",
+        "Authentication, authorization, and web security best practices",
+        "Version control and collaborative development workflows using Git",
+        "Deployment, hosting, and CI/CD fundamentals",
+        "Performance optimization, debugging, and testing of web applications"
       ]
     },
     {
-      "institution": "IMF Business School",
+      "institution": "IMF Smart Education",
       "url": "https://www.imf-formacion.com",
       "area": "Cross-Platform Application Development",
       "studyType": "Higher Technician",
-      "startDate": "2018-01-01",
+      "startDate": "2017-01-01",
       "endDate": "2019-06-01",
-      "score": "4.0",
-      "courses": [
-        "Mobile Development",
-        "Cross-Platform Applications"
+      "description": [
+        "Development of cross-platform desktop and mobile applications",
+        "Object-oriented programming and software architecture principles",
+        "Integration with APIs, databases, and third-party services",
+        "Testing, debugging, and maintenance of multi-platform applications",
+        "Multimedia integration and user experience optimization",
+        "Software design patterns and scalable application structures"
       ]
     }
   ],
@@ -130,100 +141,101 @@
     "awarder": "Company",
     "summary": "There is no spoon."
   }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "certificates": [
+    {
+      "name": "Deloitte Certificate Secure Programmer Associate",
+      "date": "2021-02-01",
+      "issuer": "Deloitte",
+      "url": "https://www.deloitte.com"
+    },
+    {
+      "name": "Deloitte Certificate Reverse Engineer Associate",
+      "date": "2021-06-01",
+      "issuer": "Deloitte",
+      "url": "https://www.deloitte.com"
+    },
+    {
+      "name": "Deloitte Certificate Ethical Hacker Associate",
+      "date": "2021-02-01",
+      "issuer": "Deloitte",
+      "url": "https://www.deloitte.com"
+    },
+    {
+      "name": "Deloitte Certificate Forensic Investigator Associate",
+      "date": "2021-04-01",
+      "issuer": "Deloitte",
+      "url": "https://www.deloitte.com"
+    }
+  ],
   "skills": [
     {
       "name": "React",
-      "level": "Expert",
       "keywords": [
         "Web Development", "Frontend", "JavaScript Library", "UI"
       ]
     },
     {
       "name": "React Native",
-      "level": "Expert",
       "keywords": [
         "Mobile Development", "Cross-Platform", "iOS", "Android"
       ]
     },
     {
       "name": "TypeScript",
-      "level": "Expert",
       "keywords": [
         "Web Development", "Frontend", "Backend", "JavaScript Superset"
       ]
     },
     {
       "name": "AWS",
-      "level": "Expert",
       "keywords": [
         "Cloud Services", "Lambda", "API Gateway", "DynamoDB", "S3", "Cognito", "IAM"
       ]
     },
     {
       "name": "Redux",
-      "level": "Expert",
       "keywords": [
         "State Management", "Redux Toolkit", "React", "Frontend"
       ]
     },
     {
       "name": "Terraform",
-      "level": "Advanced",
       "keywords": [
         "Infrastructure as Code", "IaC", "DevOps", "Cloud Automation"
       ]
     },
     {
       "name": "Node.js",
-      "level": "Advanced",
       "keywords": [
         "Web Development", "Backend", "JavaScript", "Server"
       ]
     },
     {
       "name": "Next.js",
-      "level": "Advanced",
       "keywords": [
         "Web Development", "Frontend", "React Framework", "SSR"
       ]
     },
     {
       "name": ".NET",
-      "level": "Advanced",
       "keywords": [
         "Backend", "C#", "Web Development", "Server"
       ]
     },
     {
       "name": "Git",
-      "level": "Advanced",
       "keywords": [
         "Version Control", "Collaboration", "Source Code"
       ]
     },
     {
       "name": "CI/CD",
-      "level": "Advanced",
       "keywords": [
         "Jenkins", "DevOps", "Automation", "SonarQube"
       ]
     },
     {
       "name": "Microservices",
-      "level": "Advanced",
       "keywords": [
         "Architecture", "Serverless", "Distributed Systems", "Cloud"
       ]

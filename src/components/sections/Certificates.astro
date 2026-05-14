@@ -1,0 +1,90 @@
+---
+import Section from "../Section.astro"
+
+import { certificates } from "@cv"
+---
+
+<Section title="Certificates">
+  <ul>
+    {
+      certificates.map(({ name, date, issuer, url }) => {
+        const certDate = new Date(date).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long'
+        })
+
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>
+                    {url ? (
+                      <a href={url} target="_blank" rel="noopener noreferrer">
+                        {name}
+                      </a>
+                    ) : (
+                      name
+                    )}
+                  </h3>
+                  <p class="issuer">{issuer}</p>
+                </div>
+
+                <time>{certDate}</time>
+              </header>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article h3 a {
+    color: #111;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  article h3 a:hover {
+    color: #0066cc;
+  }
+
+  .issuer {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 4px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 120px;
+    text-align: right;
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+</style>

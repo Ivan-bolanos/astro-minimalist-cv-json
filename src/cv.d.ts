@@ -63,7 +63,7 @@ interface Volunteer {
 
 interface Skills {
   name: string
-  level: string
+  level?: string
   keywords: Array<string>
 }
 
@@ -96,8 +96,8 @@ interface Education {
   studyType: string
   startDate: DateStr
   endDate: DateStr
-  score: string
-  courses: Array<string>
+  score?: string
+  description?: Array<string>
 }
 
 interface Languages {
