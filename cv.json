@@ -10,9 +10,9 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Madrid",
+      "city": "Remote",
       "countryCode": "ES",
-      "region": "Spain"
+      "region": "CET"
     },
     "profiles": [
       {
@@ -257,43 +257,28 @@
   }],
   "projects": [
     {
-      "name": "AWS Serverless Architecture",
+      "name": "Firestore Web Extension",
       "isActive": true,
-      "description": "Engineered serverless backends using AWS Lambda, API Gateway, DynamoDB, and S3",
+      "description": "Chrome extension that extracts Firestore documents as JSON directly from the Firebase Console, with zero configuration and all processing done locally.",
       "highlights": [
-        "AWS Lambda & API Gateway",
-        "DynamoDB & S3",
-        "Cognito Authentication",
-        "Terraform IaC"
+        "Chrome Extension",
+        "JavaScript",
+        "Firebase"
       ],
-      "url": "https://www.dormakaba.com",
-      "github": "https://github.com/Ivan-Bolanos"
+      "url": "https://chromewebstore.google.com/detail/firestore-web-extension/ooglohgpilhafhfjblikhlfkmbpimeao",
+      "github": "https://github.com/Ivan-bolanos/firestore-web-extension"
     },
     {
-      "name": "React Native Mobile Apps",
+      "name": "Astro Minimalist CV",
       "isActive": true,
-      "description": "Led development of 5+ Android/iOS applications with React Native, reducing development time by 40%",
+      "description": "Static, JSON-driven resume site built with Astro. Content lives in a single JSON file and renders into a clean, printable layout.",
       "highlights": [
-        "React Native",
-        "Redux State Management",
-        "60% user engagement increase",
-        "Cross-platform"
-      ],
-      "url": "https://github.com/Ivan-Bolanos",
-      "github": "https://github.com/Ivan-Bolanos"
-    },
-    {
-      "name": "Frontend Architecture Optimization",
-      "isActive": true,
-      "description": "Redesigned React frontend architecture improving code efficiency by 35%",
-      "highlights": [
-        "React & Vite",
+        "Astro",
         "TypeScript",
-        "Redux Toolkit",
-        "35% efficiency gain"
+        "JSON Resume"
       ],
-      "url": "https://github.com/Ivan-Bolanos",
-      "github": "https://github.com/Ivan-Bolanos"
+      "url": "https://ivan-bolanos-minimalist.vercel.app/",
+      "github": "https://github.com/Ivan-bolanos/astro-minimalist-cv-json"
     }
   ]
 }
